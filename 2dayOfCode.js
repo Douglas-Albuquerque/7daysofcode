@@ -1,7 +1,7 @@
-const nome = prompt("Qual seu nome?");
-const idade = prompt("Qual sua idade?");
-const linguagem = prompt("Qual linguagem de programação você esta estudando?");
-const msg = `"Olá ${nome}, você tem ${idade} anos e já esta aprendendo ${linguagem}!"`;
+let nome = prompt("Qual seu nome?");
+let idade = prompt("Qual sua idade?");
+let linguagem = prompt("Qual linguagem de programação você esta estudando?");
+const msg = `Olá ${nome}, você tem ${idade} anos e já esta aprendendo ${linguagem}!`;
 
 alert(msg);
 
